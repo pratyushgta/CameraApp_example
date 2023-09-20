@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for the handling the video view fragment
+ * MAD-E6
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.example.mad_e5_cameraapplication;
 
 import static android.app.Activity.RESULT_OK;

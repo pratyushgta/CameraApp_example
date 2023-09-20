@@ -1,6 +1,6 @@
 /**
- * This class contains methods for the welcome screen of the web view app
- * MAD-E5
+ * This class contains methods for handling the fragments
+ * MAD-E6
  *
  * @author Pratyush Kumar (github.com/pratyushgta)
  */
@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
-        //binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
@@ -42,6 +41,5 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
         getSupportFragmentManager().beginTransaction().replace(R.id.home_framelayout, new HomeFragment()).commit();
-
     }
 }

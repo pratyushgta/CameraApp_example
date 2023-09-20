@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for storing clicked media
+ * MAD-E6
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.example.mad_e5_cameraapplication;
 
 import android.graphics.Bitmap;

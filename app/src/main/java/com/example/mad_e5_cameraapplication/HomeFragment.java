@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for the home screen of the camera app
+ * MAD-E6
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.example.mad_e5_cameraapplication;
 
 import android.os.Bundle;
@@ -9,10 +16,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class HomeFragment extends Fragment {
-    public HomeFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

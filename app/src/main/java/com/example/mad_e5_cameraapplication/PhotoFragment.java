@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for the handling the photo view fragment
+ * MAD-E6
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.example.mad_e5_cameraapplication;
 import com.example.mad_e5_cameraapplication.MediaManager;
 import static android.app.Activity.RESULT_OK;
@@ -54,7 +61,7 @@ public class PhotoFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 image.setImageResource(R.drawable.monke3);
-
+                MediaManager.setCapturedImage(null);
                 Toast.makeText(getActivity(),"monkas is beck",Toast.LENGTH_SHORT).show();
             }
         });
