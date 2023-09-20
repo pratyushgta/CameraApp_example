@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MonkeCam</string>
+    <string name="title_video">Video</string>
+    <string name="title_photo">Photo</string>
+    <string name="title_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_monkecam_unleash_your_monkeyness">Welcome to MonkeCam. Unleash your monkeyness…</string>
+</resources>

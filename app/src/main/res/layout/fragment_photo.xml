@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".PhotoFragment">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/remove_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="@color/Pantone433PC_BLACK"
+        android:padding="15dp"
+        android:text="Remove"
+        android:textAlignment="center"
+        android:textColor="@color/PiperWhite"
+        android:textSize="14sp"
+        app:cornerRadius="100dp"
+        app:icon="@drawable/baseline_remove_24"
+        app:iconTint="@color/PiperWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_image"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="@color/Pantone137C_ORANGE"
+        android:padding="15dp"
+        android:text="Say Butter!"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_image"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/photo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This could be you!"
+        android:textAlignment="center"
+        android:textColor="@color/PiperTeal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/photo_image"
+        app:layout_constraintEnd_toStartOf="@+id/logo"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <ImageView
+        android:id="@+id/photo_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/z_shadow_bg"
+        android:elevation="4dp"
+        android:src="@drawable/monke3"
+        app:layout_constraintBottom_toTopOf="@+id/pratyushgta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <!-- standard -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/monkeradar_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/pratyushgta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="©pratyushgta"
+        android:textColor="#8E8A8A"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
